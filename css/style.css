@@ -15,6 +15,7 @@
   width: 100%;
   hieght: 100%;
   display: flex;
+  justify-content: center;
 }
 .logo a img {
   width: 100%;
