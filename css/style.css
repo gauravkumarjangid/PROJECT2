@@ -5,6 +5,7 @@
   height:10%;
   width:100%;
   background-color: purple;
+  display: flex;
 }
 .logo{
   width: 25%;
