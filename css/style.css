@@ -11,7 +11,11 @@
   width: 25%;
   background-color: pink;
 }
-.logo img {
+.logo a{
+  width: 100%;
+  hieght: 100%;
+}
+.logo a img {
   width: auto;
   height: auto;
 }
