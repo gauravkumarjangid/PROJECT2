@@ -32,17 +32,17 @@
 width: 100%;
 height: 100%;
 }
-.menu .navbar ul{
+.menu navbar ul{
   display: flex;
   height: 100%;
   width: 100%;
   justify-content: space-around;
   align-items: center;
 }
-.menu .navbar ul li{
+.menu navbar ul li{
 list-style-type: none;
 padding-bottom: 2.5;
 }
-.menu .navbar ul li a{
+.menu navbar ul li a{
  text-decoratiom: none;
 }
