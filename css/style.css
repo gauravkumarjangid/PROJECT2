@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
 }
 .header{
   height:10%;
@@ -24,17 +25,18 @@
 }
 .menu{
   width: 75%;
-  text: color;
   display: flex;
+  background-color: yellow;
 }
-.navbar{
+.menu .navbar{
 width: 100%;
-  position: relative;
+height: 100%;
+}
+.menu .navbar ul{
+display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@media(max width:576px) {
-  .header {
-    height: 7%;
-    background-color: red;
-  }
-}
