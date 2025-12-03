@@ -39,4 +39,6 @@ display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
+.menu .navbar ul li{
+list-style-type: none;
+}
