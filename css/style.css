@@ -31,3 +31,10 @@
 width: 100%;
   position: relative;
 }
+
+@media(max width:576px) {
+  .header {
+    height: 7%;
+    background-color: red;
+  }
+}
