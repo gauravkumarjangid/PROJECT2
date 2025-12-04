@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
-    <div id="call menu"></div>
+    <div id="callmenu"></div>
 <script>
   fetch("header.html")
-  .then(response=>{
-    document.getelementbyid("callmenu").innerHTML=data;
+  .then(response=>responce.text())
+  .then(data=>{
+    document.getelementById("callmenu").innerHTML=data;
   });
 </script>
     
