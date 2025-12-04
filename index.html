@@ -5,34 +5,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
-    <div class="header">
-      <div class="logo">
-        <a href="www.google.com">
-          <img src="photo.webp">
-        </a>
-      </div>
-      <div class="menu">
-        <div class="navbar">
-          <ul>
-            <li>
-              <a href="https://gnm-personal.github.io/studentproject/" >Home</a>
-            </li>
-            <li>
-              <a href="content.html">Content</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="view.html">View</a>
-            </li>
-            <li>
-              <a href="english.html" >Help</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <div id="call menu"></div>
+<script>
+  fetch("header.html")
+  .then(response=>{
+    document.getelementbyid("callmenu").innerHTML=data;
+  });
+</script>
+    
+         
   </body>
 </html>
 
