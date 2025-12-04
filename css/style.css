@@ -38,7 +38,7 @@ body {
   width: 100%;
   position: relative;
 }
-.menu navbar ul{
+.menu .navbar ul{
 text-decoration:none;
   text-style:none;
 
